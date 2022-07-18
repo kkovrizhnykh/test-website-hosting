@@ -989,11 +989,6 @@ svg {
   color: var(--orange-dark);
 }
 
-.footer__social-link_fb:focus {
-  outline: 2px solid var(--color-orange);
-  outline-offset: 5px;
-}
-
 .footer-middle {
   display: flex;
   flex-direction: column;

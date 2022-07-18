@@ -215,8 +215,17 @@ svg {
 }
 
 .mobile-menu__item-link:hover {
-  padding: 2px 2px;
   color: var(--color-orange);
+}
+
+.mobile-menu__item-link:focus {
+  outline: 2px solid var(--color-orange);
+  outline-offset: 5px;
+}
+
+.mobile-menu__item-link:active {
+  outline: none;
+  color: var(--orange-dark);
 }
 
 .logo {

@@ -989,6 +989,11 @@ svg {
   color: var(--orange-dark);
 }
 
+.footer__social-link_fb:focus {
+  outline: 2px solid var(--color-orange);
+  outline-offset: 5px;
+}
+
 .footer-middle {
   display: flex;
   flex-direction: column;
@@ -1884,7 +1889,7 @@ svg {
 
   .questions {
     padding-top: 5px;
-    padding-bottom: 61px;
+    padding-bottom: 66px;
   }
 
   .questions .section-heading {
@@ -1989,8 +1994,16 @@ svg {
   }
 
   .footer__social-link {
+    margin-top: 8px;
     width: 40px;
     height: 40px;
+  }
+
+  .footer__social-link_fb,
+  .footer__social-link_vk,
+  .footer__social-link_ig {
+    display: flex;
+    align-items: center;
   }
 
   .footer__social-links:not(:last-child) {
